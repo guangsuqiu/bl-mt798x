@@ -19,6 +19,7 @@ eg: SOC=mt7981 BOARD=wr30u MULTI_LAYOUT=1 ./build.sh
 eg: SOC=mt7981 BOARD=cmcc_rax3000m-emmc ./build.sh
 eg: SOC=mt7986 BOARD=redmi_ax6000 MULTI_LAYOUT=1 ./build.sh
 eg: SOC=mt7986 BOARD=jdcloud_re-cp-03 ./build.sh
+eg: SOC=mt7981 BOARD=lc3001 MULTI_LAYOUT=1 ./build.sh
 ```
 
 ---
