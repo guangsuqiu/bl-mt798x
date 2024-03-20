@@ -29,10 +29,10 @@
 		};
 
 		layout@1 {
-			// mtd layout for immortalwrt/openwrt 112M ubi firmware
-			label = "immortalwrt-112m";
+			// immortalwrt-mt798x lc-hc3001
+			label = "immortalwrt-114m";
 			mtdids = "nmbm0=nmbm0";
-			mtdparts = "nmbm0:1024k(bl2),256k(Nvram),256k(Bdata),2048k(factory),2048k(fip),256k(crash),256k(crash_log),112m(ubi),256k(KF)";
+			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),117248k(ubi)";
 		};
 
 		layout@2 {

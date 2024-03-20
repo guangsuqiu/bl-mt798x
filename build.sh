@@ -13,6 +13,7 @@ if [ -z "$SOC" ] || [ -z "$BOARD" ]; then
 	echo "eg: SOC=mt7981 BOARD=cmcc_rax3000m-emmc $0"
 	echo "eg: SOC=mt7986 BOARD=redmi_ax6000 MULTI_LAYOUT=1 $0"
 	echo "eg: SOC=mt7986 BOARD=jdcloud_re-cp-03 $0"
+	echo "eg: SOC=mt7981 BOARD=lc3001 MULTI_LAYOUT=1 $0"
 	exit 1
 fi
 
